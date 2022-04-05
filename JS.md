@@ -2,8 +2,8 @@
 
 ## Main brackets
 
-- `{ }`: is mainly used for `functions`
-- `( )`: is mainly used for `statements`
+- `{ }`: is mainly used for `statement`
+- `( )`: is mainly used for `condition`
 - `[ ]`: is mainly used for `arrays`
 
 ## Javascript Basics
@@ -59,7 +59,7 @@ console.log(pi); // 3.14
 // 3. printing more than one element,
 const x = 5;
 const y = 10;
-console.log(`${x} Hello Wolrd ${y}`); // 5 Hello World 10
+console.log(`${x} Hello World ${y}`); // 5 Hello World 10
 
 // 4. console.log adds one line after it finishes
 console.log(\n); // will just print an empty new line
@@ -333,7 +333,7 @@ foo() => {};
 
 ### Iteration Methods
 
-- Iteration methods work on **\*\***\_\_\_\_**\*\*** only!
+- Iteration methods work on **arreys** only!
 - All iteration methods go over evrey single element of the array
 - Iteration methods take a function that has a parameter of the current value of the array. Preferred to use arrow function inside it.
 
@@ -364,7 +364,7 @@ array.reduce((prev, current) => prev + current); // returns the sum of the array
 
 # Objects
 
-The structure of object is a pair of `variable:value`
+The structure of object is a pair of `key:value`
 
 ```js
 // To create an object
